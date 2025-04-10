@@ -3610,6 +3610,75 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:C")
+		(at 81.28 45.72 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "11ef9c8c-b080-411b-a5c0-be1185eddda5")
+		(property "Reference" "C1"
+			(at 82.296 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100nF"
+			(at 82.296 48.514 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+			(at 82.2452 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 81.28 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 81.28 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "705bd0e4-d3e9-496c-8176-2ea94d46e6ba")
+		)
+		(pin "2"
+			(uuid "237fbbd7-a2b3-4775-8207-28c284636921")
+		)
+		(instances
+			(project "UsbUartBridge"
+				(path "/4c3b105e-46d9-4f53-a989-3f2215a086af"
+					(reference "C1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+5V")
 		(at 87.63 96.52 0)
 		(unit 1)
@@ -4098,7 +4167,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "R"
+		(property "Value" "1k"
 			(at 203.2 116.8399 0)
 			(effects
 				(font
@@ -4107,7 +4176,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder"
 			(at 198.882 115.57 90)
 			(effects
 				(font
@@ -4282,76 +4351,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
-		(at 81.28 45.72 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "656eb420-ab31-4eed-8e6e-a5451c80cd0d")
-		(property "Reference" "C1"
-			(at 85.09 44.4499 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "C"
-			(at 85.09 46.9899 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
-			(at 80.3148 41.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 81.28 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 81.28 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "9ddb5b3e-9df5-4631-a53c-55b45067d2bd")
-		)
-		(pin "2"
-			(uuid "743159e5-22bd-4a49-b0c0-a44fd5941007")
-		)
-		(instances
-			(project ""
-				(path "/4c3b105e-46d9-4f53-a989-3f2215a086af"
-					(reference "C1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R")
 		(at 223.52 116.84 180)
 		(unit 1)
@@ -4370,7 +4369,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "R"
+		(property "Value" "1k"
 			(at 226.06 118.1099 0)
 			(effects
 				(font
@@ -4379,7 +4378,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder"
 			(at 225.298 116.84 90)
 			(effects
 				(font
@@ -4422,6 +4421,75 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:C")
+		(at 87.63 123.19 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "6fa7d07e-8840-420a-bd6d-5468a3419d4a")
+		(property "Reference" "C3"
+			(at 91.44 121.158 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100nF"
+			(at 91.44 123.444 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+			(at 88.5952 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 87.63 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 87.63 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "528b4cbc-8c27-47e5-8a02-f5deee93de98")
+		)
+		(pin "2"
+			(uuid "77c48e5e-5823-4172-8ebd-934e59e86521")
+		)
+		(instances
+			(project "UsbUartBridge"
+				(path "/4c3b105e-46d9-4f53-a989-3f2215a086af"
+					(reference "C3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
 		(at 170.18 66.04 90)
 		(unit 1)
@@ -4438,7 +4506,7 @@
 				)
 			)
 		)
-		(property "Value" "R"
+		(property "Value" "1k"
 			(at 170.18 68.58 90)
 			(effects
 				(font
@@ -4446,7 +4514,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder"
 			(at 170.18 67.818 90)
 			(effects
 				(font
@@ -5184,6 +5252,75 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:C")
+		(at 153.67 118.11 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "8bd2b631-bed8-4965-bc4c-33acb25f7921")
+		(property "Reference" "C2"
+			(at 157.48 116.078 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100nF"
+			(at 157.48 118.364 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+			(at 154.6352 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 153.67 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 153.67 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "1ff31141-221f-4373-84f7-f75b96ca4fe8")
+		)
+		(pin "2"
+			(uuid "6b92e16d-e10e-410e-be28-39d05b1d8ad3")
+		)
+		(instances
+			(project "UsbUartBridge"
+				(path "/4c3b105e-46d9-4f53-a989-3f2215a086af"
+					(reference "C2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:VDD")
 		(at 200.66 110.49 0)
 		(unit 1)
@@ -5249,76 +5386,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
-		(at 87.63 123.19 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "c3ea566f-ecb6-4564-8f13-c88dd104f39f")
-		(property "Reference" "C3"
-			(at 91.44 121.9199 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "C"
-			(at 91.44 124.4599 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
-			(at 88.5952 127 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 87.63 123.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 87.63 123.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "78899366-0179-43b1-9615-419c1e86b3c3")
-		)
-		(pin "2"
-			(uuid "528b1722-f3ea-44ab-a1f7-e244658772ec")
-		)
-		(instances
-			(project "CP2102USB2UART"
-				(path "/4c3b105e-46d9-4f53-a989-3f2215a086af"
-					(reference "C3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R")
 		(at 87.63 102.87 0)
 		(unit 1)
@@ -5337,7 +5404,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "R"
+		(property "Value" "470"
 			(at 90.17 104.1399 0)
 			(effects
 				(font
@@ -5346,7 +5413,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 85.852 102.87 90)
 			(effects
 				(font
@@ -5383,75 +5450,6 @@
 			(project "CP2102USB2UART"
 				(path "/4c3b105e-46d9-4f53-a989-3f2215a086af"
 					(reference "R4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 153.67 118.11 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "cc755e4b-be24-4cfb-b393-31246b946c46")
-		(property "Reference" "C2"
-			(at 157.48 116.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "C"
-			(at 157.4801 119.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
-			(at 154.6352 121.92 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 153.67 118.11 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 153.67 118.11 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "56c53123-2e02-45b3-ab5d-013447748fc7")
-		)
-		(pin "2"
-			(uuid "9be2f0e8-aa95-44eb-a080-0e4948b17442")
-		)
-		(instances
-			(project "CP2102USB2UART"
-				(path "/4c3b105e-46d9-4f53-a989-3f2215a086af"
-					(reference "C2")
 					(unit 1)
 				)
 			)
